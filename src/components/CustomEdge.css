@@ -1,0 +1,24 @@
+.react-flow__edge:hover .react-flow__edge-path {
+  stroke-width: 3;
+}
+
+.react-flow__edge:hover .edgebutton-foreignobject div {
+  opacity: 1;
+}
+
+.edgebutton-foreignobject div {
+  background: rgb(217, 174, 174);
+  border: 1px solid rgb(88, 29, 29);
+  border-radius: 50%;
+  color: rgb(88, 29, 29);
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 18px;
+  opacity: 0;
+  transition: opacity 0.2s;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
