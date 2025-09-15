@@ -8,13 +8,9 @@ interface DefaultNodeDetailsProps {
     description?: string;
     sql?: string;
   };
-  id: string;
 }
 
-const DefaultNodeDetails: React.FC<DefaultNodeDetailsProps> = ({
-  data,
-  id,
-}) => {
+const DefaultNodeDetails: React.FC<DefaultNodeDetailsProps> = ({ data }) => {
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
       <div>
